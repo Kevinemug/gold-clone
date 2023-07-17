@@ -42,7 +42,7 @@ function App() {
 
 
 <div  className='hidden  lg:block lg:absolute left-10 top-20'>
-  <div>
+  <div className='lg:w-[560px]'>
     <img src="https://www.gold.ac.uk/media/images-by-section/homepage/2023/homepage_hero_march_23.png" alt="" />
   </div>
   {/* crd */}
