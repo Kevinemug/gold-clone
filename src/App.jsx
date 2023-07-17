@@ -199,7 +199,6 @@ function App() {
 {/* TODO:grid */}
 <section className='bg-hero  bg-no-repeat h-[900px] mx-20 hidden relative z-1 bg-contain -mt-[10%] lg:block '></section>
 <div className=' flex flex-col mx-20 '>
-  <section className='bg-input bg-contain  hidden h-[200px] bg-no-repeat w-[80%]    lg:block'></section>
   <section className=' bg-grid bg-no-repeat h-[900px]  bg-contain hidden lg:block '>
   
   </section>
