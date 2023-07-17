@@ -34,7 +34,7 @@ function App() {
 </div>
 
 
-<div className=' bg-[#f6f7f7] p-4  lg:w-full lg:relative  top-[-300px]  lg:flex justify-end   lg:pr-20  lg:hidden '>
+<div className=' bg-[#f6f7f7] p-4  lg:w-full lg:relative  top-[-300px]  lg:flex justify-end   lg:pr-20   '>
 
 
 
@@ -197,7 +197,7 @@ function App() {
 
 
 {/* TODO:grid */}
-<section className='bg-hero  bg-no-repeat h-[900px] mx-20 hidden relative z-1 bg-contain -mt-[10%] lg:block '></section>
+{/* <section className='bg-hero  bg-no-repeat h-[900px] mx-20 hidden relative z-1 bg-contain -mt-[10%] lg:block '></section> */}
 <div className=' flex flex-col mx-20 '>
   <section className=' bg-grid bg-no-repeat h-[900px]  bg-contain hidden lg:block '>
   
