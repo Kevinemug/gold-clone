@@ -34,7 +34,7 @@ function App() {
 </div>
 
 
-<div className=' bg-[#f6f7f7] p-4  lg:w-full lg:relative  top-[-300px]  lg:flex justify-end  lg:pr-20   '>
+<div className=' bg-[#f6f7f7] p-4  lg:w-full lg:relative  top-[-300px]  lg:flex justify-end lg:hidden  lg:pr-20   '>
 
 
 
