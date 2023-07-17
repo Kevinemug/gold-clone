@@ -14,10 +14,10 @@ function App() {
 
   <div className='hidden lg:flex justify-between'>
   <div><img src="https://www.gold.ac.uk/assets/img/svg/sprite/logo.svg" alt="goldsmithlogo" /></div>
-    <div className='flex gap-8'>
-      <div className=''><img src="https://www.gold.ac.uk/assets/img/svg/sprite/charm-menu-staff-students.svg" alt="" /></div>
-      <div className='w-[100px]'><img src="https://www.gold.ac.uk/assets/img/svg/sprite/charm-menu-search.svg" alt="" /></div>
-       <div className='w-[100px]'><img src="https://www.gold.ac.uk/assets/img/svg/sprite/charm-menu.svg" alt="" /></div>
+    <div className='flex gap-8 '>
+      <div className='hover:bg-black'><img src="https://www.gold.ac.uk/assets/img/svg/sprite/charm-menu-staff-students.svg" alt="" /></div>
+      <div className='w-[100px] hover:bg-black'><img src="https://www.gold.ac.uk/assets/img/svg/sprite/charm-menu-search.svg" alt="" /></div>
+       <div className='w-[100px] hover:bg-black'><img src="https://www.gold.ac.uk/assets/img/svg/sprite/charm-menu.svg" alt="" /></div>
     </div>
   </div>
   </header>    
@@ -28,7 +28,7 @@ function App() {
 <img src="https://www.gold.ac.uk/media/images-by-section/study/clearing-and-adjustment/clearing-2023/clearing-homepage-1-compressed.png" alt="" className='w-full'/>
 <div className='z-10 flex flex-col  justify-center items-center relative top-[-60px] px-7 lg:px-0 lg:w-[50%] lg:top-[-320px] lg:left-[30%]'>
   <img src="https://www.gold.ac.uk/media/images-by-section/study/clearing-and-adjustment/clearing-2023/CLEARED[79].svg" alt="" className=' ' />
-<button  className='bg-[#fed100] h-[70px] relative top-[-25px] lg:top-[-40px] font-medium  border px-8 border-gray-400 border-b-8 w-full lg:w-[50%] border-b-[#223036]'>Apply now through clearing</button>
+<button  className='bg-[#fed100] hover:cursor-pointer h-[70px] relative top-[-25px] lg:top-[-40px] font-medium  border px-8 border-gray-400 border-b-8 w-full lg:w-[50%] border-b-[#223036]'>Apply now through clearing</button>
   </div>
 
 </div>
@@ -197,16 +197,16 @@ function App() {
 
 
 {/* TODO:grid */}
-<section className='bg-hero  bg-no-repeat h-[900px] mx-20 hidden bg-contain  lg:block '></section>
+<section className='bg-hero  bg-no-repeat h-[900px] mx-20 hidden relative z-1 bg-contain -mt-[10%] lg:block '></section>
 <div className=' flex flex-col mx-20 '>
-  <section className='bg-input   hidden h-[200px] bg-no-repeat w-[80%]  bg-cover lg:block'></section>
+  <section className='bg-input bg-contain  hidden h-[200px] bg-no-repeat w-[80%]    lg:block'></section>
   <section className=' bg-grid bg-no-repeat h-[900px]  bg-contain hidden lg:block '>
   
   </section>
 </div>
  
 
- <section className='cards grid gap-2 lg:grid-cols-4 w-[80%] m-auto'>
+ <section className='cards grid gap-2 lg:grid-cols-4 hover:text-red-500 w-[80%] m-auto'>
 
 <div className='lg:w-[200px] '>
   <div className=''>
@@ -229,7 +229,7 @@ function App() {
     <img src="https://www.gold.ac.uk/media/images-by-section/about-us/news/IFUpic.jpg" alt="" />
   </div>
   <div className='flex justify-center items-center'>
-    <p className='w-[200px] text-[#376ebe] text-center'>Lorem ir, situr adipisicing elit. Facere a,</p>
+    <p className='w-[200px] text-[#376ebe] text-center hover:text-[#fed100]'>Lorem ir, situr adipisicing elit. Facere a,</p>
   </div>
   <div className='flex justify-center  flex-col pt-5 items-center'>
     < div className='flex gap-3 lg:hidden'>
@@ -245,7 +245,7 @@ function App() {
     <img src="https://www.gold.ac.uk/media/images-by-section/about-us/news/IFUpic.jpg" alt="" />
   </div>
   <div className='flex justify-center items-center'>
-    <p className='w-[200px] text-[#376ebe] text-center'>Lorem ir, situr adipisicing elit. Facere a,</p>
+    <p className='w-[200px] text-[#376ebe] text-center hover:text-[#fed100]'>Lorem ir, situr adipisicing elit. Facere a,</p>
   </div>
   <div className='flex justify-center  flex-col pt-5 items-center'>
     < div className='flex gap-3 lg:hidden'>
@@ -261,7 +261,7 @@ function App() {
     <img src="https://www.gold.ac.uk/media/images-by-section/about-us/news/IFUpic.jpg" alt="" />
   </div>
   <div className='flex justify-center items-center'>
-    <p className='w-[200px] text-[#376ebe] text-center'>Lorem ir, situr adipisicing elit. Facere a,</p>
+    <p className='w-[200px] text-[#376ebe] text-center hover:text-[#fed100]'>Lorem ir, situr adipisicing elit. Facere a,</p>
   </div>
   <div className='flex justify-center  flex-col pt-5 items-center'>
     < div className='flex gap-3 lg:hidden'>
@@ -275,19 +275,19 @@ function App() {
  </section>
 
 <section className='footer mt-5 bg-[#333333] font-bold grid grid-cols-2 p-8'>
-  <div className='text-[#f2ffff]'>
-<p>About us</p>
-<p>Contact us</p>
-<p>Find us</p>
-<p>Jobs</p>
-<p>Accessibility</p>
-<p>Statement</p>
+  <div className='text-[#f2ffff] '>
+<p className='hover:text-[#fed100]'>About us</p>
+<p className='hover:text-[#fed100] '>Contact us</p>
+<p className='hover:text-[#fed100]'>Find us</p>
+<p className='hover:text-[#fed100]'>Jobs</p>
+<p className='hover:text-[#fed100]'>Accessibility</p>
+<p className='hover:text-[#fed100]'>Statement</p>
   </div>
 
   <div className='text-[#f2ffff] '>
-    <p>Cookie use</p>
-<p>cpy</p>
-<p>disclianme</p>
+    <p className='hover:text-[#fed100]'>Cookie use</p>
+<p className='hover:text-[#fed100]'>cpy</p>
+<p className='hover:text-[#fed100]'>disclianme</p>
 
 </div>
  
